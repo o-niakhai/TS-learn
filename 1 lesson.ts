@@ -19,4 +19,15 @@ let variable: any = 41
 
 //...
 variable = 'New String'
-variable = [1,2,3]
+variable = []
+
+//===
+function sayMyName(name: string): void {
+    console.log(name)
+}
+sayMyName( 'Heisenberg')
+
+// Never
+function throwError(message: string): never {
+    throw new Error(message)
+}
