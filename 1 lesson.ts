@@ -12,7 +12,7 @@ const numberArray2: Array<number> = [1, 2, 3, 4, 5, 6, 7]
 const words: string[] = ['Hello', 'Typescript']
 
 // Tuple
-const contact: [string, number] = ['Oleg' 123455]
+const contact: [string, number] = ['Oleg', 12345]
 
 // Array
 let variable: any = 41
