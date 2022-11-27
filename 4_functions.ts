@@ -19,6 +19,7 @@ function add(a: number, b: number): number {
   function position(a: number): MyPositionWithDefault
   function position(a: number, b: number): MyPosition
   
+  //Не обязательный параметр - с вопросом
   function position(a?: number, b?: number) {
     if (!a && !b) {
       return {x: undefined, y: undefined}
