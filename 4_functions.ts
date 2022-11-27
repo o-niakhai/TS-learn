@@ -21,7 +21,9 @@ function add(a: number, b: number): number {
   
   //Не обязательный параметр - с вопросом
   function position(a?: number, b?: number) {
-    if (!a && !b) {
+    if (!a && !b)
+    //если на А и нсли не Б то
+    {
       return {x: undefined, y: undefined}
     }
   
