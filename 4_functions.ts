@@ -22,7 +22,7 @@ function add(a: number, b: number): number {
   //Не обязательный параметр - с вопросом
   function position(a?: number, b?: number) {
     if (!a && !b)
-    //если на А и нсли не Б то
+    // проверяем если на А и нсли не Б то вернуть undefined
     {
       return {x: undefined, y: undefined}
     }
