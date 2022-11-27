@@ -9,7 +9,9 @@ class Typescript {
       return `[${name}]: Typescript version is ${this.version}`
     }
   }
-  
+  //Свойствам помеченным модификатором readonly значение может быть присвоено только в момент инициализации, или в конструкторе того же класса. 
+  //Любые другие присваивания значении запрещены.
+
   // class Car {
   //   readonly model: string
   //   readonly numberOfWheels: number = 4
