@@ -31,11 +31,13 @@ class Typescript {
   class Animal {
     protected voice: string = ''
     public color: string = 'black'
-  
+
     constructor() {
       this.go()
     }
   
+  // private - нельзя обратиться вне класса
+
     private go() {
       console.log('Go')
     }
