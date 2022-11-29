@@ -27,7 +27,6 @@ class Typescript {
   }
   // ==============
   
-  
   class Animal {
     //Модификатор protected определяет поля и методы, которые из вне класса видны только в классах-наследниках
     protected voice: string = ''
