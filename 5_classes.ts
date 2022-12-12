@@ -74,5 +74,3 @@ class Typescript {
       return 'This is info';
     }
   }
-
-  
