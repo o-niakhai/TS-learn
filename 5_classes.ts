@@ -59,7 +59,7 @@ class Typescript {
   console.log(cat.color)
   // cat.voice
   
-  // =====================
+  // ===========abstract class==========
   
   abstract class Component {
     abstract render(): void
