@@ -40,5 +40,3 @@ function strip(x: string | number) {
   setAlertType('warning')
   
   // setAlertType('default')
-
-  
